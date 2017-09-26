@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0848B741F72696E00A2F9B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B731F72696E00A2F9B8 /* main.m */; };
+		B0848B771F72696E00A2F9B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B761F72696E00A2F9B8 /* AppDelegate.m */; };
+		B0848B7A1F72696E00A2F9B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B791F72696E00A2F9B8 /* ViewController.m */; };
+		B0848B7D1F72696E00A2F9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0848B7B1F72696E00A2F9B8 /* Main.storyboard */; };
+		B0848B7F1F72696E00A2F9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0848B7E1F72696E00A2F9B8 /* Assets.xcassets */; };
+		B0848B821F72696E00A2F9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0848B801F72696E00A2F9B8 /* LaunchScreen.storyboard */; };
+		B0848B8D1F72696E00A2F9B8 /* UPHybirdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B8C1F72696E00A2F9B8 /* UPHybirdDemoTests.m */; };
+		B0848B981F72696E00A2F9B8 /* UPHybirdDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B971F72696E00A2F9B8 /* UPHybirdDemoUITests.m */; };
+		B0848BAE1F726A7500A2F9B8 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = B0848BAD1F726A7500A2F9B8 /* config.xml */; };
+		B0848BB01F726A8700A2F9B8 /* www in Resources */ = {isa = PBXBuildFile; fileRef = B0848BAF1F726A8700A2F9B8 /* www */; };
+		B0848BB31F726AE200A2F9B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BAA1F726A1400A2F9B8 /* libCordova.a */; };
+		B0848BB61F726AEA00A2F9B8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BB51F726AEA00A2F9B8 /* MobileCoreServices.framework */; };
+		B0848BB81F726AF000A2F9B8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BB71F726AF000A2F9B8 /* AssetsLibrary.framework */; };
+		B0848BC21F726E5200A2F9B8 /* CordovaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */; };
+		B0848BCA1F738E4000A2F9B8 /* TestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848BC91F738E4000A2F9B8 /* TestPlugin.m */; };
+		B0848BCD1F738E9D00A2F9B8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0848B891F72696E00A2F9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0848B671F72696D00A2F9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0848B6E1F72696E00A2F9B8;
+			remoteInfo = UPHybirdDemo;
+		};
+		B0848B941F72696E00A2F9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0848B671F72696D00A2F9B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0848B6E1F72696E00A2F9B8;
+			remoteInfo = UPHybirdDemo;
+		};
+		B0848BA91F726A1400A2F9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0848BA51F726A1400A2F9B8 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		B0848BB11F726ACE00A2F9B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0848BA51F726A1400A2F9B8 /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0078F531F78CA4F003CEAE3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B0848B6F1F72696E00A2F9B8 /* UPHybirdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPHybirdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0848B731F72696E00A2F9B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0848B751F72696E00A2F9B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0848B761F72696E00A2F9B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0848B781F72696E00A2F9B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0848B791F72696E00A2F9B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0848B7C1F72696E00A2F9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0848B7E1F72696E00A2F9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0848B811F72696E00A2F9B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0848B831F72696E00A2F9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0848B881F72696E00A2F9B8 /* UPHybirdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPHybirdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0848B8C1F72696E00A2F9B8 /* UPHybirdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPHybirdDemoTests.m; sourceTree = "<group>"; };
+		B0848B8E1F72696E00A2F9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0848B931F72696E00A2F9B8 /* UPHybirdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UPHybirdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0848B971F72696E00A2F9B8 /* UPHybirdDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPHybirdDemoUITests.m; sourceTree = "<group>"; };
+		B0848B991F72696E00A2F9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0848BA51F726A1400A2F9B8 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		B0848BAD1F726A7500A2F9B8 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		B0848BAF1F726A8700A2F9B8 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		B0848BB51F726AEA00A2F9B8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B0848BB71F726AF000A2F9B8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B0848BC01F726E5200A2F9B8 /* CordovaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaViewController.h; sourceTree = "<group>"; };
+		B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaViewController.m; sourceTree = "<group>"; };
+		B0848BC81F738E4000A2F9B8 /* TestPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPlugin.h; sourceTree = "<group>"; };
+		B0848BC91F738E4000A2F9B8 /* TestPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPlugin.m; sourceTree = "<group>"; };
+		B0848BCB1F738E9D00A2F9B8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0848B6C1F72696E00A2F9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0848BB81F726AF000A2F9B8 /* AssetsLibrary.framework in Frameworks */,
+				B0848BB61F726AEA00A2F9B8 /* MobileCoreServices.framework in Frameworks */,
+				B0848BB31F726AE200A2F9B8 /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B851F72696E00A2F9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B901F72696E00A2F9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0848B661F72696D00A2F9B8 = {
+			isa = PBXGroup;
+			children = (
+				B0848BAD1F726A7500A2F9B8 /* config.xml */,
+				B0848BAF1F726A8700A2F9B8 /* www */,
+				B0848BC61F738E1900A2F9B8 /* Plugins */,
+				B0848BA51F726A1400A2F9B8 /* CordovaLib.xcodeproj */,
+				B0848B711F72696E00A2F9B8 /* UPHybirdDemo */,
+				B0848B8B1F72696E00A2F9B8 /* UPHybirdDemoTests */,
+				B0848B961F72696E00A2F9B8 /* UPHybirdDemoUITests */,
+				B0848B701F72696E00A2F9B8 /* Products */,
+				B0848BB41F726AE900A2F9B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 1;
+		};
+		B0848B701F72696E00A2F9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0848B6F1F72696E00A2F9B8 /* UPHybirdDemo.app */,
+				B0848B881F72696E00A2F9B8 /* UPHybirdDemoTests.xctest */,
+				B0848B931F72696E00A2F9B8 /* UPHybirdDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0848B711F72696E00A2F9B8 /* UPHybirdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B0848B751F72696E00A2F9B8 /* AppDelegate.h */,
+				B0848B761F72696E00A2F9B8 /* AppDelegate.m */,
+				B0848B781F72696E00A2F9B8 /* ViewController.h */,
+				B0848B791F72696E00A2F9B8 /* ViewController.m */,
+				B0848BC01F726E5200A2F9B8 /* CordovaViewController.h */,
+				B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */,
+				B0848BCB1F738E9D00A2F9B8 /* TestViewController.h */,
+				B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */,
+				B0848B7B1F72696E00A2F9B8 /* Main.storyboard */,
+				B0848B7E1F72696E00A2F9B8 /* Assets.xcassets */,
+				B0848B801F72696E00A2F9B8 /* LaunchScreen.storyboard */,
+				B0848B831F72696E00A2F9B8 /* Info.plist */,
+				B0848B721F72696E00A2F9B8 /* Supporting Files */,
+			);
+			path = UPHybirdDemo;
+			sourceTree = "<group>";
+		};
+		B0848B721F72696E00A2F9B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0848B731F72696E00A2F9B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0848B8B1F72696E00A2F9B8 /* UPHybirdDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0848B8C1F72696E00A2F9B8 /* UPHybirdDemoTests.m */,
+				B0848B8E1F72696E00A2F9B8 /* Info.plist */,
+			);
+			path = UPHybirdDemoTests;
+			sourceTree = "<group>";
+		};
+		B0848B961F72696E00A2F9B8 /* UPHybirdDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0848B971F72696E00A2F9B8 /* UPHybirdDemoUITests.m */,
+				B0848B991F72696E00A2F9B8 /* Info.plist */,
+			);
+			path = UPHybirdDemoUITests;
+			sourceTree = "<group>";
+		};
+		B0848BA61F726A1400A2F9B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0848BAA1F726A1400A2F9B8 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0848BB41F726AE900A2F9B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0848BB71F726AF000A2F9B8 /* AssetsLibrary.framework */,
+				B0848BB51F726AEA00A2F9B8 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0848BC61F738E1900A2F9B8 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				B0848BC71F738E1900A2F9B8 /* com.catchzeng.testplugin */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		B0848BC71F738E1900A2F9B8 /* com.catchzeng.testplugin */ = {
+			isa = PBXGroup;
+			children = (
+				B0848BC81F738E4000A2F9B8 /* TestPlugin.h */,
+				B0848BC91F738E4000A2F9B8 /* TestPlugin.m */,
+			);
+			path = com.catchzeng.testplugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0848B6E1F72696E00A2F9B8 /* UPHybirdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0848B9C1F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemo" */;
+			buildPhases = (
+				B0848B6B1F72696E00A2F9B8 /* Sources */,
+				B0848B6C1F72696E00A2F9B8 /* Frameworks */,
+				B0848B6D1F72696E00A2F9B8 /* Resources */,
+				B0848BB91F726B0000A2F9B8 /* copy www directory */,
+				B0078F531F78CA4F003CEAE3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0848BB21F726ACE00A2F9B8 /* PBXTargetDependency */,
+			);
+			name = UPHybirdDemo;
+			productName = UPHybirdDemo;
+			productReference = B0848B6F1F72696E00A2F9B8 /* UPHybirdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0848B871F72696E00A2F9B8 /* UPHybirdDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0848B9F1F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemoTests" */;
+			buildPhases = (
+				B0848B841F72696E00A2F9B8 /* Sources */,
+				B0848B851F72696E00A2F9B8 /* Frameworks */,
+				B0848B861F72696E00A2F9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0848B8A1F72696E00A2F9B8 /* PBXTargetDependency */,
+			);
+			name = UPHybirdDemoTests;
+			productName = UPHybirdDemoTests;
+			productReference = B0848B881F72696E00A2F9B8 /* UPHybirdDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0848B921F72696E00A2F9B8 /* UPHybirdDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0848BA21F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemoUITests" */;
+			buildPhases = (
+				B0848B8F1F72696E00A2F9B8 /* Sources */,
+				B0848B901F72696E00A2F9B8 /* Frameworks */,
+				B0848B911F72696E00A2F9B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0848B951F72696E00A2F9B8 /* PBXTargetDependency */,
+			);
+			name = UPHybirdDemoUITests;
+			productName = UPHybirdDemoUITests;
+			productReference = B0848B931F72696E00A2F9B8 /* UPHybirdDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0848B671F72696D00A2F9B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Steven Zhou";
+				TargetAttributes = {
+					B0848B6E1F72696E00A2F9B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V2RQ2X35EA;
+						ProvisioningStyle = Automatic;
+					};
+					B0848B871F72696E00A2F9B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0848B6E1F72696E00A2F9B8;
+					};
+					B0848B921F72696E00A2F9B8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0848B6E1F72696E00A2F9B8;
+					};
+				};
+			};
+			buildConfigurationList = B0848B6A1F72696D00A2F9B8 /* Build configuration list for PBXProject "UPHybirdDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0848B661F72696D00A2F9B8;
+			productRefGroup = B0848B701F72696E00A2F9B8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B0848BA61F726A1400A2F9B8 /* Products */;
+					ProjectRef = B0848BA51F726A1400A2F9B8 /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B0848B6E1F72696E00A2F9B8 /* UPHybirdDemo */,
+				B0848B871F72696E00A2F9B8 /* UPHybirdDemoTests */,
+				B0848B921F72696E00A2F9B8 /* UPHybirdDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B0848BAA1F726A1400A2F9B8 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = B0848BA91F726A1400A2F9B8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0848B6D1F72696E00A2F9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0848B821F72696E00A2F9B8 /* LaunchScreen.storyboard in Resources */,
+				B0848B7F1F72696E00A2F9B8 /* Assets.xcassets in Resources */,
+				B0848B7D1F72696E00A2F9B8 /* Main.storyboard in Resources */,
+				B0848BB01F726A8700A2F9B8 /* www in Resources */,
+				B0848BAE1F726A7500A2F9B8 /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B861F72696E00A2F9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B911F72696E00A2F9B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0848BB91F726B0000A2F9B8 /* copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cordova/lib/copy-www-build-step.js";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0848B6B1F72696E00A2F9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0848BCD1F738E9D00A2F9B8 /* TestViewController.m in Sources */,
+				B0848B7A1F72696E00A2F9B8 /* ViewController.m in Sources */,
+				B0848B771F72696E00A2F9B8 /* AppDelegate.m in Sources */,
+				B0848B741F72696E00A2F9B8 /* main.m in Sources */,
+				B0848BC21F726E5200A2F9B8 /* CordovaViewController.m in Sources */,
+				B0848BCA1F738E4000A2F9B8 /* TestPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B841F72696E00A2F9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0848B8D1F72696E00A2F9B8 /* UPHybirdDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0848B8F1F72696E00A2F9B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0848B981F72696E00A2F9B8 /* UPHybirdDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0848B8A1F72696E00A2F9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0848B6E1F72696E00A2F9B8 /* UPHybirdDemo */;
+			targetProxy = B0848B891F72696E00A2F9B8 /* PBXContainerItemProxy */;
+		};
+		B0848B951F72696E00A2F9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0848B6E1F72696E00A2F9B8 /* UPHybirdDemo */;
+			targetProxy = B0848B941F72696E00A2F9B8 /* PBXContainerItemProxy */;
+		};
+		B0848BB21F726ACE00A2F9B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = B0848BB11F726ACE00A2F9B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0848B7B1F72696E00A2F9B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0848B7C1F72696E00A2F9B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0848B801F72696E00A2F9B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0848B811F72696E00A2F9B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0848B9A1F72696E00A2F9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0848B9B1F72696E00A2F9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0848B9D1F72696E00A2F9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2RQ2X35EA;
+				HEADER_SEARCH_PATHS = /Users/steven/Desktop/UPHybirdDemo;
+				INFOPLIST_FILE = UPHybirdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0848B9E1F72696E00A2F9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2RQ2X35EA;
+				HEADER_SEARCH_PATHS = /Users/steven/Desktop/UPHybirdDemo;
+				INFOPLIST_FILE = UPHybirdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0848BA01F72696E00A2F9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPHybirdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPHybirdDemo.app/UPHybirdDemo";
+			};
+			name = Debug;
+		};
+		B0848BA11F72696E00A2F9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UPHybirdDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UPHybirdDemo.app/UPHybirdDemo";
+			};
+			name = Release;
+		};
+		B0848BA31F72696E00A2F9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UPHybirdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPHybirdDemo;
+			};
+			name = Debug;
+		};
+		B0848BA41F72696E00A2F9B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UPHybirdDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Haier.UPHybirdDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UPHybirdDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0848B6A1F72696D00A2F9B8 /* Build configuration list for PBXProject "UPHybirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0848B9A1F72696E00A2F9B8 /* Debug */,
+				B0848B9B1F72696E00A2F9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0848B9C1F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0848B9D1F72696E00A2F9B8 /* Debug */,
+				B0848B9E1F72696E00A2F9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0848B9F1F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0848BA01F72696E00A2F9B8 /* Debug */,
+				B0848BA11F72696E00A2F9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0848BA21F72696E00A2F9B8 /* Build configuration list for PBXNativeTarget "UPHybirdDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0848BA31F72696E00A2F9B8 /* Debug */,
+				B0848BA41F72696E00A2F9B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0848B671F72696D00A2F9B8 /* Project object */;
+}

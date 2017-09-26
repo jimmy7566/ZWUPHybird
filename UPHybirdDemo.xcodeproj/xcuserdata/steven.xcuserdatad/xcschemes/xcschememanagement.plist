@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>UPHybirdDemo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B0078F361F78CA4F003CEAE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0078F3E1F78CA4F003CEAE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0078F591F78CC3F003CEAE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0078F611F78CC40003CEAE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B049546B1F78AC6F00C35076</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0848B6E1F72696E00A2F9B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0848B871F72696E00A2F9B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0848B921F72696E00A2F9B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
