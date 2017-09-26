@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B0078FC41F7A3067003CEAE3 /* TestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B0078FC31F7A3067003CEAE3 /* TestPlugin.m */; };
+		B0078FCA1F7A3564003CEAE3 /* CordovaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0078FC71F7A3564003CEAE3 /* CordovaViewController.m */; };
+		B0078FCB1F7A3564003CEAE3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0078FC91F7A3564003CEAE3 /* TestViewController.m */; };
 		B0848B741F72696E00A2F9B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B731F72696E00A2F9B8 /* main.m */; };
 		B0848B771F72696E00A2F9B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B761F72696E00A2F9B8 /* AppDelegate.m */; };
 		B0848B7A1F72696E00A2F9B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848B791F72696E00A2F9B8 /* ViewController.m */; };
@@ -21,8 +23,6 @@
 		B0848BB31F726AE200A2F9B8 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BAA1F726A1400A2F9B8 /* libCordova.a */; };
 		B0848BB61F726AEA00A2F9B8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BB51F726AEA00A2F9B8 /* MobileCoreServices.framework */; };
 		B0848BB81F726AF000A2F9B8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0848BB71F726AF000A2F9B8 /* AssetsLibrary.framework */; };
-		B0848BC21F726E5200A2F9B8 /* CordovaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */; };
-		B0848BCD1F738E9D00A2F9B8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +72,10 @@
 /* Begin PBXFileReference section */
 		B0078FC21F7A3067003CEAE3 /* TestPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPlugin.h; sourceTree = "<group>"; };
 		B0078FC31F7A3067003CEAE3 /* TestPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPlugin.m; sourceTree = "<group>"; };
+		B0078FC61F7A3564003CEAE3 /* CordovaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaViewController.h; sourceTree = "<group>"; };
+		B0078FC71F7A3564003CEAE3 /* CordovaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaViewController.m; sourceTree = "<group>"; };
+		B0078FC81F7A3564003CEAE3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B0078FC91F7A3564003CEAE3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		B0848B6F1F72696E00A2F9B8 /* UPHybirdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPHybirdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0848B731F72696E00A2F9B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0848B751F72696E00A2F9B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,10 +97,6 @@
 		B0848BAF1F726A8700A2F9B8 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		B0848BB51F726AEA00A2F9B8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B0848BB71F726AF000A2F9B8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		B0848BC01F726E5200A2F9B8 /* CordovaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaViewController.h; sourceTree = "<group>"; };
-		B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaViewController.m; sourceTree = "<group>"; };
-		B0848BCB1F738E9D00A2F9B8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +130,10 @@
 		B0078FC11F7A3067003CEAE3 /* ZWHybird */ = {
 			isa = PBXGroup;
 			children = (
+				B0078FC61F7A3564003CEAE3 /* CordovaViewController.h */,
+				B0078FC71F7A3564003CEAE3 /* CordovaViewController.m */,
+				B0078FC81F7A3564003CEAE3 /* TestViewController.h */,
+				B0078FC91F7A3564003CEAE3 /* TestViewController.m */,
 				B0078FC21F7A3067003CEAE3 /* TestPlugin.h */,
 				B0078FC31F7A3067003CEAE3 /* TestPlugin.m */,
 			);
@@ -169,10 +173,6 @@
 				B0848B761F72696E00A2F9B8 /* AppDelegate.m */,
 				B0848B781F72696E00A2F9B8 /* ViewController.h */,
 				B0848B791F72696E00A2F9B8 /* ViewController.m */,
-				B0848BC01F726E5200A2F9B8 /* CordovaViewController.h */,
-				B0848BC11F726E5200A2F9B8 /* CordovaViewController.m */,
-				B0848BCB1F738E9D00A2F9B8 /* TestViewController.h */,
-				B0848BCC1F738E9D00A2F9B8 /* TestViewController.m */,
 				B0848B7B1F72696E00A2F9B8 /* Main.storyboard */,
 				B0848B7E1F72696E00A2F9B8 /* Assets.xcassets */,
 				B0848B801F72696E00A2F9B8 /* LaunchScreen.storyboard */,
@@ -397,12 +397,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0848BCD1F738E9D00A2F9B8 /* TestViewController.m in Sources */,
+				B0078FCB1F7A3564003CEAE3 /* TestViewController.m in Sources */,
 				B0848B7A1F72696E00A2F9B8 /* ViewController.m in Sources */,
 				B0848B771F72696E00A2F9B8 /* AppDelegate.m in Sources */,
 				B0848B741F72696E00A2F9B8 /* main.m in Sources */,
-				B0848BC21F726E5200A2F9B8 /* CordovaViewController.m in Sources */,
 				B0078FC41F7A3067003CEAE3 /* TestPlugin.m in Sources */,
+				B0078FCA1F7A3564003CEAE3 /* CordovaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
